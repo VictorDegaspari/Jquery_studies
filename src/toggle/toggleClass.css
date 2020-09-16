@@ -1,0 +1,127 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-table-notification {
+  width: 100%;
+  margin: 30px 0;
+  padding: 30px 0;
+
+  border-top: 20px solid #667eea;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+/*Area Data e Botões*/
+.area-header-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+h2.title-page {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  border-bottom: 1px solid #a0aec0;
+  padding-top: 15px;
+}
+.area-header-table .area-data {
+  display: flex;
+  align-items: center;
+}
+
+label.area-data {
+  width: 200px;
+  box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.06), 0px 1px 2px rgba(0, 0, 0, 0.1),
+    0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+
+  padding: 10px;
+  margin-left: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.area-data input {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #959595;
+}
+.area-data i {
+  color: #dadada;
+  cursor: pointer;
+}
+.area-buttons button {
+  height: 36px;
+  color: #667eea;
+  margin: 10px 14px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+
+  background: #ffffff;
+  border: 1px solid #667eea;
+  border-radius: 16px;
+}
+
+/*TABELA*/
+#table-notification {
+  width: 90%;
+  height: 192px;
+  margin: 0 auto;
+  margin-top: 49px;
+  border-radius: 12px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.notification-rows {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #e2e8f0;
+  height: 32px;
+}
+
+.notification-rows .space-columns {
+  display: flex;
+  align-items: center;
+}
+
+.notification-rows .space-check {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.notification-rows .space-columns h2 {
+  margin-left: 30px;
+}
+
+.notification-rows .space-columns img {
+  margin-left: 15px;
+}
+#table-notification .first-row {
+  border-top: 1px solid #e2e8f0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #42474a;
+}
+form label.notification-rows {
+  padding-right: 40px;
+}
+
+.color-switch {
+  background-color: #eff4f7;
+}
